@@ -1,0 +1,10 @@
+module.exports = {
+  slack: {
+    token: 'xoxb-XXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX'
+    // To get a token, goto https://my.slack.com/services/new/bot and create a bot, or you can use an existing token
+  },
+  screeps: {
+    email: 'nobody@email.com',
+    password: 'notmypass'
+  }
+}
