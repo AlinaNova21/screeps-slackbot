@@ -1,6 +1,7 @@
 Slack bot that interfaces with the Screeps API
 
 # Setup
+
 Add slack.js to your screeps project
 Add this somewhere in your code:
 ```
@@ -9,6 +10,7 @@ slack = new Slack()
 ```
 
 configure using config.js,
+run `npm install`
 run with `node bot`
 
 # Usage: 
