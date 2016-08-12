@@ -11,7 +11,16 @@ slack = new Slack()
 
 configure using config.js,
 run `npm install`
-run with `node bot`
+run with `node bot.js`
+
+# Run with Docker
+
+Follow all Setup instructions except running node,
+then: 
+```
+docker build -t screeps-slackbot .
+docker run -it --rm screeps-slackbot
+```
 
 # Usage: 
 ## Screeps
