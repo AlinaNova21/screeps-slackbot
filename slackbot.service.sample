@@ -1,0 +1,15 @@
+[Unit]
+Description=Screeps Slackbot
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /opt/screeps-slackbot/bot.js
+Restart=always
+User=nobody #change this to a user and group in system
+Group=nobody
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/opt/screeps-slackbot
+
+[Install]
+WantedBy=multi-user.target

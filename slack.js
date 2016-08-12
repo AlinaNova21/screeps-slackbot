@@ -4,9 +4,6 @@ class Slack {
       this.load()
     return this._config
   }
-  get hooks () {
-    return this.hooks = this.hooks || []
-  }
   constructor () {
     this.commands = []
     global.slack = this
