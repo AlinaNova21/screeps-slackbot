@@ -1,5 +1,8 @@
 Slack bot that interfaces with the Screeps API
 
+# Requirements
+node 6 or higher https://nodejs.org/en/download/current/
+
 # Setup
 
 Add slack.js to your screeps project
